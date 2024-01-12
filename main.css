@@ -1,3 +1,64 @@
 body{
   background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cal-wrapper{
+  width: 400px;
+  background-color: #000000;
+  display: inline-block;
+  flex-wrap: wrap; 
+} 
+
+.button{
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  border: none;
+  background-color: #d8d9db;
+  margin: 1px;
+}
+
+.button-row {
+  display: flex;
+}
+
+button:hover{
+  background-color: #ebebeb;
+}
+
+button:active{
+  background-color:  #bbbcbe;
+}
+
+.clear{
+  width: 204px;
+}
+
+.zero{
+  width: 305px;
+}
+
+button:last-child{
+  background-color: orange;
+  color: #ffffff;
+}
+.button.characters:hover {
+  background-color: #dfb07e;
+}
+.button.characters:active {
+  background-color: #dd8d37;
+}
+
+.display{
+  color: #ffffff;
+  font-family: monospace;
+  background-color: #000000;
+  width: 398px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
